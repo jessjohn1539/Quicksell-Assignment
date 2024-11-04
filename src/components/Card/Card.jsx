@@ -19,10 +19,11 @@ function Card({ ticket }) {
         </div>
       </div>
       <div className="card-title">
-        <img src={priorityInfo.icon} alt={priorityInfo.name} className="priority-icon"/>
+        
         <h3>{ticket.title}</h3>
       </div>
       <div className="card-tags">
+      <img src={priorityInfo.icon} alt={priorityInfo.name} className="priority-icon"/>
         {ticket.tag.map((tag, index) => (
           <span key={index} className="tag">
             ○ {tag}
