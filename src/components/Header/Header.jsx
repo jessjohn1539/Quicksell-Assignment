@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className="header">
-      <button 
+      <button
         className="display-button"
         onClick={() => setShowMenu(!showMenu)}
       >

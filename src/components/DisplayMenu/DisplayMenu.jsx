@@ -18,7 +18,7 @@ function DisplayMenu({ onClose }) {
     <div className="display-menu">
       <div className="menu-item">
         <label>Grouping</label>
-        <select 
+        <select
           value={state.groupBy}
           onChange={(e) => handleGroupingChange(e.target.value)}
         >
@@ -31,7 +31,7 @@ function DisplayMenu({ onClose }) {
       </div>
       <div className="menu-item">
         <label>Ordering</label>
-        <select 
+        <select
           value={state.sortBy}
           onChange={(e) => handleSortingChange(e.target.value)}
         >

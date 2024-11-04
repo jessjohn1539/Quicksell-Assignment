@@ -25,8 +25,8 @@ function Card({ ticket, groupBy }) {
         <span className="ticket-id">{ticket.id}</span>
         {groupBy !== 'user' && (
           <div className="user-avatar">
-          {user?.name.charAt(0) || '?'}
-        </div>
+            {user?.name.charAt(0) || '?'}
+          </div>
         )}
 
       </div>
@@ -48,7 +48,7 @@ function Card({ ticket, groupBy }) {
         <h3>{ticket.title}</h3>
       </div>
       <div className="card-tags">
-      {groupBy !== 'priority' && (
+        {groupBy !== 'priority' && (
           <img src={priorityInfo.icon} alt={priorityInfo.name} className="priority-icon" />
         )}
         {ticket.tag.map((tag, index) => (
