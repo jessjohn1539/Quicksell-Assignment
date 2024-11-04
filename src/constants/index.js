@@ -5,7 +5,7 @@ export const PRIORITY_LEVELS = {
   3: { name: 'High', icon: SVG_ICONS.priority[3] },
   2: { name: 'Medium', icon: SVG_ICONS.priority[2] },
   1: { name: 'Low', icon: SVG_ICONS.priority[1] },
-  0: { name: 'No priority', icon: SVG_ICONS.priority[0] },
+  0: { name: 'noPriority', icon: SVG_ICONS.priority[0] },
 };
 
 // export const STATUS_ICONS = {

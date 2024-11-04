@@ -44,7 +44,7 @@ export function groupTickets(tickets, users, groupBy) {
       'High': [],
       'Medium': [],
       'Low': [],
-      'No priority': [],
+      'noPriority': [],
     };
   
     tickets.forEach(ticket => {
@@ -62,7 +62,7 @@ export function groupTickets(tickets, users, groupBy) {
           priorityGroups['Low'].push(ticket);
           break;
         default:
-          priorityGroups['No priority'].push(ticket);
+          priorityGroups['noPriority'].push(ticket);
       }
     });
   

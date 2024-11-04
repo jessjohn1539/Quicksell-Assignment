@@ -4,7 +4,7 @@ export const SVG_ICONS = {
       3: '/assets/Img-High-Priority.svg',
       2: '/assets/Img-Medium-Priority.svg',
       1: '/assets/Img-Low-Priority.svg',
-      0: '/assets/No-priority.svg'
+      0: '/assets/noPriority.svg'
     },
     status: {
       'Backlog': '/assets/Backlog.svg',
